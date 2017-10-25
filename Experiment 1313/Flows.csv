@@ -1,0 +1,6 @@
+State Variable,Compartment,Adj Compartment,Flow (cmd),Adj Compartment,Flow (cmd)
+1,1,2,0.00E+00
+1,2,1,0.00E+00
+2,1,2,0.00E+00
+2,2,1,0.00E+00
+

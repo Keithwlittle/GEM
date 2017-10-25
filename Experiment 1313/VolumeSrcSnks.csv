@@ -1,0 +1,6 @@
+Compartment,First SV,Second SV,Rate Constant (/day) wrt First SV
+2,1,2,0.1
+2,2,1,-0.1
+2,2,1,0.0055
+2,1,2,-0.0055
+-999,,,

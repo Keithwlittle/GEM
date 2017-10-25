@@ -1,0 +1,75 @@
+Environmental System or Equation Solver mode (EnvS, EqnS)? 
+EnvS
+Linear problem? (Y,N)
+y
+Steady-state simulation (else dynamic)? (Y,N)
+n
+If EqnS, enter the number of equations.
+-999
+If EnvS, maximum number of state variables, number of nonboundary compartments, number of dummy + boundary compartments
+3,200,2
+If EnvS, maximum number of adjacent compartments
+2
+If EnvS, enter MixLengthOption
+1
+If EnvS, enter the around-compartments flow balance tolerance (%).
+1
+If dynamic, enter 1 for FT,Euler's method, 2 for CT,MacCormick's method, 3 for BT,Implicit method, 4 for CT,Crank-Nicholson
+3
+If dynamic, enter the time step in days.
+10
+If dynamic, enter the number of time steps.
+20
+If dynamic, enter the time step at which to output intermediate diagnostic files
+1
+If dynamic and EnvS, enter option (1,2, or 3) for results output
+1
+If write option above = 1, enter the time step at which to print the profile.
+20
+if write option above = 2, enter the compartment number and the time step print interval.
+4,1
+If nonlinear and dynamic, is your R matrix nonlinear, i.e. a function of the concentrations? (Y,N)
+n/a
+If nonlinear, are analytical derivatives for the Jacobian available (Y,N)?
+n/a
+If no analytical derivatives, enter the finite difference multiplier for derivative estimation
+-999
+If nonlinear, would you like to save Newton Algorithm diagnostics to NewtonInfo.dng file? (Y,N)
+n/a
+If nonlinear, will zero or negative concentrations present numerical problems during Newton method iterations? (Y,N)
+n/a
+If nonlinear, enter a reasonable minimum and maximum value for your concentrations.
+-999,-999
+If nonlinear, enter the Newton's Method stopping criterion.
+-999
+If nonlinear, enter (1) MaxNewtonIteration, (2) MaxSamplingIteration, (3) NumSamples
+-999,-999,-999
+If nonlinear, are you providing nonlinear f(c) source/sink inputs with user-provided fofc.exe and the Shell functionality? (Y/N)
+n
+if nonlinear and dynamic, are you providing nonlinear R(c) inputs with user-provided Rofc.exe and the Shell functionality? (Y/N)
+n/a
+If dynamic and EnvS, do you want to use the Shell functionality to update Compartment.csv? (Y,N)
+N/a
+If dynamic and EnvS, do you want to use the Shell functionality to update Interfaces.csv? (Y,N)
+N/a
+If dynamic and EnvS, do you want to use the Shell functionality to update Flows.csv? (Y,N)
+N/a
+If dynamic and EnvS, do you want to use the Shell functionality to update ECoefficients.csv? (Y,N)
+N/a
+If dynamic and EnvS, do you want to use the Shell functionality to update FlowandEMultipliers.csv? (Y,N)
+N/a
+If dynamic and EnvS, do you want to use the Shell functionality to update LinearKdandTempCoef.csv? (Y,N) 
+n/a
+If dynamic and EnvS, do you want to use the Shell functionality to update Boundary.csv? (Y,N)
+N/a
+If dynamic and EnvS, do you want to use the Shell functionality to update Loads.csv? (Y,N)
+N/a
+If dynamic and EqnS, do you want to use the Shell functionality to update AEqnSolver.csv? (Y,N)
+N/a
+If dynamic and EqnS, do you want to use the Shell functionality to update BEqnSolver.csv? (Y,N)
+N/a
+If dynamic and EqnS, do you want to use the Shell functionality to update RVEqnSolver.csv? (Y,N)
+N/a
+
+
+

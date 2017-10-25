@@ -1,0 +1,5 @@
+State Variable, Initial, In, Transport Out, Volume-Based Sinks Out, Area-Based Sinks Out, Residual, Balance Error 
+1,0.0,101.75745766090934,3.352335512990706E-10,0.0,0.0,10.158259143327195,91.5991985172469
+2,0.0,0.0,1.497121568141483,0.0,0.0,14.87942093091873,-16.376542499060214
+3,0.0,0.0,1.2020959453137978,37.94575415596496,0.0,36.074435473018916,-75.22228557429767
+Mass balance error across state variables as a percentage of initial and total input mass = 3.6404593582273925E-4 %
